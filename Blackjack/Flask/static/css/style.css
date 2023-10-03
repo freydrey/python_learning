@@ -1,0 +1,9 @@
+html,
+body {
+  background-color: aqua;
+  /*background-image: url(../img/bg.jpeg);*/
+}
+
+p {
+  color: black;
+}

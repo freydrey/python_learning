@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="static/css/style.css" />
+    <title>This shows on the browser tab</title>
+  </head>
+
+  <body>
+    <p>I cant wait for the next super bowl</p>
+
+    <div>
+      {% block main%}
+
+      <h1>This shows only on structure.html</h1>
+
+      {% endblock main %}
+    </div>
+  </body>
+</html>
